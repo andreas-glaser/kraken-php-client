@@ -1,14 +1,14 @@
 #Kraken PHP Client
-An efficient 
+An efficient kraken rest api client, built on top of [guzzle](https://github.com/guzzle/guzzle)
 
 ##Requirements
-* PHP 7.*
+* PHP 7.x
 * [Composer Dependency Manager](https://getcomposer.org/)
-* [Kraken](https://poloniex.com/) account (optional but required for trading)
+* [Kraken](https://kraken.com/) account (optional, but required for trading)
 
 ##Installation
 ```shell
-composer require andreas-glaser/kpc
+composer require andreas-glaser/kraken-php-client
 ```
 
 ##Usage
@@ -20,9 +20,9 @@ use AndreasGlaser\KPC\KPC;
 $apiKey = 'YOUR_PRIVATE_API_KEY';
 $apiSecret = 'YOUR_PRIVATE_API_SECRET';
 
-/** @var KPC $pcc */
-$pcc = new KPC($apiKey,$apiSecret);
+/** @var KPC $kpc */
+$kpc = new KPC($apiKey,$apiSecret);
 
-$result = $pcc->buy('BTC_ETH', 0.034, 100, 1);
+$result = $kpc->getTicker(['XBTUSD', 'ETHXBT']);
 
 var_dump($result->decoded);
