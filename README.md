@@ -21,7 +21,7 @@ $apiKey = 'YOUR_PRIVATE_API_KEY';
 $apiSecret = 'YOUR_PRIVATE_API_SECRET';
 
 /** @var KPC $kpc */
-$kpc = new KPC($apiKey,$apiSecret);
+$kpc = new KPC($apiKey, $apiSecret);
 
 $result = $kpc->getTicker(['XBTUSD', 'ETHXBT']);
 

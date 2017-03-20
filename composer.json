@@ -1,13 +1,13 @@
 {
-  "name": "andreas-glaser/kpc",
-  "description": "Kraken PHP Client",
+  "name": "andreas-glaser/kraken-php-client",
+  "description": "An efficient kraken rest api client, built on top of guzzle",
   "keywords": [
     "php",
     "api",
     "rest-client",
     "poloniex"
   ],
-  "homepage": "https://github.com/andreas-glaser/kpc",
+  "homepage": "https://github.com/andreas-glaser/kraken-php-client",
   "type": "library",
   "license": "MIT",
   "authors": [
