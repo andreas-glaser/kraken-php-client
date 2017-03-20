@@ -8,7 +8,7 @@ An efficient kraken rest api client, built on top of [guzzle](https://github.com
 
 ## Installation
 ```shell
-composer require andreas-glaser/kraken-php-client
+composer require andreas-glaser/kraken-php-client dev-master
 ```
 
 ## Usage
