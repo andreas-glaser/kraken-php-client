@@ -1,17 +1,17 @@
-#Kraken PHP Client
+# Kraken PHP Client
 An efficient kraken rest api client, built on top of [guzzle](https://github.com/guzzle/guzzle)
 
-##Requirements
+## Requirements
 * PHP 7.x
 * [Composer Dependency Manager](https://getcomposer.org/)
 * [Kraken](https://kraken.com/) account (optional, but required for trading)
 
-##Installation
+## Installation
 ```shell
 composer require andreas-glaser/kraken-php-client
 ```
 
-##Usage
+## Usage
 ```php
 <?php
 
