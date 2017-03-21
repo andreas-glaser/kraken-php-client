@@ -136,7 +136,7 @@ class KPC
         return $this->sendPublicRequest('Assets', [
             'info'   => $info,
             'aclass' => $aclass,
-            'pair'   => !empty($assets) ? implode(',', $assets) : 'all',
+            'asset'   => !empty($assets) ? implode(',', $assets) : 'all',
         ]);
     }
 
